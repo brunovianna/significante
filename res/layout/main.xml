@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+	<com.brunovianna.significante.SigView  
+	  android:id="@+id/sig"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+	<TableLayout android:id="@+id/tableLayout1" android:gravity="center|center_vertical|center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_vertical|center_horizontal">
+		<TextView android:visibility="visible" android:textColor="#88ffffff" android:text="@string/significante_layout_text_text" android:textSize="24sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/text"></TextView>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ok" android:id="@+id/button1"></Button>
+	</TableLayout>
+    
+</FrameLayout>
